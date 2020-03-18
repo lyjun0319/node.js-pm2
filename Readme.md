@@ -39,12 +39,12 @@ $ sudo chown "아이디" -
 
 #### 폴더 node 초기화
 ```text
-& npm init
+$ npm init
 ```
 
 #### express 설치
 ```text
-npm install --save express
+$ npm install --save express
 ```
 #### app.js 생성
 ```text
