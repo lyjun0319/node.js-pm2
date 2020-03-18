@@ -89,5 +89,5 @@ $ pm2 start app.js --watch
 #### 80 Port Redirect 8080
 * 80 port로 접속시 8080으로 연결
 ```
-sudo iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
+$ sudo iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
 ```
